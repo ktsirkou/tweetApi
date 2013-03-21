@@ -1,20 +1,30 @@
 body {
- margin:80px;
+ margin-top:80px;
  font-size:12pt;
+ background-color:#FFFFF3
 }
  
 #boxesContainer {
   margin-left: auto;
   margin-right: auto;
-  border: 3px solid blue;
- 
+  width:70%
 }
  
 .box {
   vertical-align: top;
   border: 3px solid blue;
   display: inline-block;
-  width: 150px;
+  width: 140px;
   text-align: center;
   margin: 10px;
-  padding: 2px;
+  padding:2px;
+}
+h2{
+  font-size:8pt;
+  text-align: left;
+  color:grey;
+ }
+p{
+  word-wrap:break-word;
+}
+				
